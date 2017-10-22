@@ -10,6 +10,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            CreditCard creditCard = new CreditCard("0000 0000 0000 0000 1111");
+            Console.WriteLine(creditCard.getNumberCard());
+            Console.ReadKey();
         }
     }
 }
